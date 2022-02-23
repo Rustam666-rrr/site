@@ -1,0 +1,63 @@
+ /* &display=swap&subset=cyrillic-ext */
+ /* @import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&subset=cyrillic-ext"); */
+
+@font-face {
+   font-family: 'Gilroy';
+   src: url('Gilroy-Regular.woff2') format('woff2'),
+      url('Gilroy-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+div p{
+   color: blueviolet;
+}
+
+.cont > span{
+   color: red;
+}
+.text{
+   text-align:right /*center;*/
+   
+}
+.shadow{
+text-shadow: 1px 1px 1px red ;
+
+}
+.block1, .block2,.block3, .block4 {
+   width: 400px;ЯВи ть
+} 
+
+.block1{
+   background-color: green;
+   font-size: 39px;
+   margin: 10px;
+}
+.block2 {
+   background-color: aqua;
+   font-size: 39px;
+}
+.block3 {
+   background-color: yellow;
+   font-size: 39px;
+   margin: 0 auto;
+}
+.block4 {
+   background-color: red;
+   font-size: 39px;
+   margin: 0px 0px 0px auto;
+}
+
+span{
+   display: block;
+}
+.block-item{
+   padding: 15px;
+   background-color: green;
+   display: inline-block;
+   max-width: 200px;
+   max-height: 200px;
+   overflow: auto;
+   margin-bottom: 100px;
+}
